@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2250B4029C5F3A8004D5572 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2250B3F29C5F3A8004D5572 /* AppDelegate.swift */; };
+		A2250B4229C5F3A8004D5572 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2250B4129C5F3A8004D5572 /* SceneDelegate.swift */; };
+		A2250B4429C5F3A8004D5572 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2250B4329C5F3A8004D5572 /* ViewController.swift */; };
+		A2250B4729C5F3A8004D5572 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2250B4529C5F3A8004D5572 /* Main.storyboard */; };
+		A2250B4A29C5F3A8004D5572 /* _______.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2250B4829C5F3A8004D5572 /* _______.xcdatamodeld */; };
+		A2250B4C29C5F3A8004D5572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2250B4B29C5F3A8004D5572 /* Assets.xcassets */; };
+		A2250B4F29C5F3A8004D5572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2250B4D29C5F3A8004D5572 /* LaunchScreen.storyboard */; };
+		A2250B5A29C5F3A8004D5572 /* _______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2250B5929C5F3A8004D5572 /* _______Tests.swift */; };
+		A2250B6429C5F3A9004D5572 /* _______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2250B6329C5F3A9004D5572 /* _______UITests.swift */; };
+		A2250B6629C5F3A9004D5572 /* _______UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2250B6529C5F3A9004D5572 /* _______UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2250B5629C5F3A8004D5572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2250B3429C5F3A8004D5572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2250B3B29C5F3A8004D5572;
+			remoteInfo = "南機場美食介紹";
+		};
+		A2250B6029C5F3A9004D5572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2250B3429C5F3A8004D5572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2250B3B29C5F3A8004D5572;
+			remoteInfo = "南機場美食介紹";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2250B3C29C5F3A8004D5572 /* 南機場美食介紹.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "南機場美食介紹.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2250B3F29C5F3A8004D5572 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2250B4129C5F3A8004D5572 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A2250B4329C5F3A8004D5572 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2250B4629C5F3A8004D5572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2250B4929C5F3A8004D5572 /* _______.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_______.xcdatamodel"; sourceTree = "<group>"; };
+		A2250B4B29C5F3A8004D5572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2250B4E29C5F3A8004D5572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2250B5029C5F3A8004D5572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2250B5529C5F3A8004D5572 /* 南機場美食介紹Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "南機場美食介紹Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2250B5929C5F3A8004D5572 /* _______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______Tests.swift"; sourceTree = "<group>"; };
+		A2250B5F29C5F3A9004D5572 /* 南機場美食介紹UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "南機場美食介紹UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2250B6329C5F3A9004D5572 /* _______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______UITests.swift"; sourceTree = "<group>"; };
+		A2250B6529C5F3A9004D5572 /* _______UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______UITestsLaunchTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2250B3929C5F3A8004D5572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2250B5229C5F3A8004D5572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2250B5C29C5F3A9004D5572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2250B3329C5F3A8004D5572 = {
+			isa = PBXGroup;
+			children = (
+				A2250B3E29C5F3A8004D5572 /* 南機場美食介紹 */,
+				A2250B5829C5F3A8004D5572 /* 南機場美食介紹Tests */,
+				A2250B6229C5F3A9004D5572 /* 南機場美食介紹UITests */,
+				A2250B3D29C5F3A8004D5572 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2250B3D29C5F3A8004D5572 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2250B3C29C5F3A8004D5572 /* 南機場美食介紹.app */,
+				A2250B5529C5F3A8004D5572 /* 南機場美食介紹Tests.xctest */,
+				A2250B5F29C5F3A9004D5572 /* 南機場美食介紹UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2250B3E29C5F3A8004D5572 /* 南機場美食介紹 */ = {
+			isa = PBXGroup;
+			children = (
+				A2250B3F29C5F3A8004D5572 /* AppDelegate.swift */,
+				A2250B4129C5F3A8004D5572 /* SceneDelegate.swift */,
+				A2250B4329C5F3A8004D5572 /* ViewController.swift */,
+				A2250B4529C5F3A8004D5572 /* Main.storyboard */,
+				A2250B4B29C5F3A8004D5572 /* Assets.xcassets */,
+				A2250B4D29C5F3A8004D5572 /* LaunchScreen.storyboard */,
+				A2250B5029C5F3A8004D5572 /* Info.plist */,
+				A2250B4829C5F3A8004D5572 /* _______.xcdatamodeld */,
+			);
+			path = "南機場美食介紹";
+			sourceTree = "<group>";
+		};
+		A2250B5829C5F3A8004D5572 /* 南機場美食介紹Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A2250B5929C5F3A8004D5572 /* _______Tests.swift */,
+			);
+			path = "南機場美食介紹Tests";
+			sourceTree = "<group>";
+		};
+		A2250B6229C5F3A9004D5572 /* 南機場美食介紹UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2250B6329C5F3A9004D5572 /* _______UITests.swift */,
+				A2250B6529C5F3A9004D5572 /* _______UITestsLaunchTests.swift */,
+			);
+			path = "南機場美食介紹UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2250B3B29C5F3A8004D5572 /* 南機場美食介紹 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2250B6929C5F3A9004D5572 /* Build configuration list for PBXNativeTarget "南機場美食介紹" */;
+			buildPhases = (
+				A2250B3829C5F3A8004D5572 /* Sources */,
+				A2250B3929C5F3A8004D5572 /* Frameworks */,
+				A2250B3A29C5F3A8004D5572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "南機場美食介紹";
+			productName = "南機場美食介紹";
+			productReference = A2250B3C29C5F3A8004D5572 /* 南機場美食介紹.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2250B5429C5F3A8004D5572 /* 南機場美食介紹Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2250B6C29C5F3A9004D5572 /* Build configuration list for PBXNativeTarget "南機場美食介紹Tests" */;
+			buildPhases = (
+				A2250B5129C5F3A8004D5572 /* Sources */,
+				A2250B5229C5F3A8004D5572 /* Frameworks */,
+				A2250B5329C5F3A8004D5572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2250B5729C5F3A8004D5572 /* PBXTargetDependency */,
+			);
+			name = "南機場美食介紹Tests";
+			productName = "南機場美食介紹Tests";
+			productReference = A2250B5529C5F3A8004D5572 /* 南機場美食介紹Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2250B5E29C5F3A9004D5572 /* 南機場美食介紹UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2250B6F29C5F3A9004D5572 /* Build configuration list for PBXNativeTarget "南機場美食介紹UITests" */;
+			buildPhases = (
+				A2250B5B29C5F3A9004D5572 /* Sources */,
+				A2250B5C29C5F3A9004D5572 /* Frameworks */,
+				A2250B5D29C5F3A9004D5572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2250B6129C5F3A9004D5572 /* PBXTargetDependency */,
+			);
+			name = "南機場美食介紹UITests";
+			productName = "南機場美食介紹UITests";
+			productReference = A2250B5F29C5F3A9004D5572 /* 南機場美食介紹UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2250B3429C5F3A8004D5572 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A2250B3B29C5F3A8004D5572 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A2250B5429C5F3A8004D5572 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A2250B3B29C5F3A8004D5572;
+					};
+					A2250B5E29C5F3A9004D5572 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A2250B3B29C5F3A8004D5572;
+					};
+				};
+			};
+			buildConfigurationList = A2250B3729C5F3A8004D5572 /* Build configuration list for PBXProject "南機場美食介紹" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2250B3329C5F3A8004D5572;
+			productRefGroup = A2250B3D29C5F3A8004D5572 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2250B3B29C5F3A8004D5572 /* 南機場美食介紹 */,
+				A2250B5429C5F3A8004D5572 /* 南機場美食介紹Tests */,
+				A2250B5E29C5F3A9004D5572 /* 南機場美食介紹UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2250B3A29C5F3A8004D5572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2250B4F29C5F3A8004D5572 /* LaunchScreen.storyboard in Resources */,
+				A2250B4C29C5F3A8004D5572 /* Assets.xcassets in Resources */,
+				A2250B4729C5F3A8004D5572 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2250B5329C5F3A8004D5572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2250B5D29C5F3A9004D5572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2250B3829C5F3A8004D5572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2250B4429C5F3A8004D5572 /* ViewController.swift in Sources */,
+				A2250B4A29C5F3A8004D5572 /* _______.xcdatamodeld in Sources */,
+				A2250B4029C5F3A8004D5572 /* AppDelegate.swift in Sources */,
+				A2250B4229C5F3A8004D5572 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2250B5129C5F3A8004D5572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2250B5A29C5F3A8004D5572 /* _______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2250B5B29C5F3A9004D5572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2250B6629C5F3A9004D5572 /* _______UITestsLaunchTests.swift in Sources */,
+				A2250B6429C5F3A9004D5572 /* _______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2250B5729C5F3A8004D5572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2250B3B29C5F3A8004D5572 /* 南機場美食介紹 */;
+			targetProxy = A2250B5629C5F3A8004D5572 /* PBXContainerItemProxy */;
+		};
+		A2250B6129C5F3A9004D5572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2250B3B29C5F3A8004D5572 /* 南機場美食介紹 */;
+			targetProxy = A2250B6029C5F3A9004D5572 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2250B4529C5F3A8004D5572 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2250B4629C5F3A8004D5572 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2250B4D29C5F3A8004D5572 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2250B4E29C5F3A8004D5572 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2250B6729C5F3A9004D5572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2250B6829C5F3A9004D5572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2250B6A29C5F3A9004D5572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "南機場美食介紹/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hydee.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2250B6B29C5F3A9004D5572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "南機場美食介紹/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hydee.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2250B6D29C5F3A9004D5572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hydee.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/南機場美食介紹.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/南機場美食介紹";
+			};
+			name = Debug;
+		};
+		A2250B6E29C5F3A9004D5572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hydee.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/南機場美食介紹.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/南機場美食介紹";
+			};
+			name = Release;
+		};
+		A2250B7029C5F3A9004D5572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hydee.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "南機場美食介紹";
+			};
+			name = Debug;
+		};
+		A2250B7129C5F3A9004D5572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hydee.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "南機場美食介紹";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2250B3729C5F3A8004D5572 /* Build configuration list for PBXProject "南機場美食介紹" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2250B6729C5F3A9004D5572 /* Debug */,
+				A2250B6829C5F3A9004D5572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2250B6929C5F3A9004D5572 /* Build configuration list for PBXNativeTarget "南機場美食介紹" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2250B6A29C5F3A9004D5572 /* Debug */,
+				A2250B6B29C5F3A9004D5572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2250B6C29C5F3A9004D5572 /* Build configuration list for PBXNativeTarget "南機場美食介紹Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2250B6D29C5F3A9004D5572 /* Debug */,
+				A2250B6E29C5F3A9004D5572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2250B6F29C5F3A9004D5572 /* Build configuration list for PBXNativeTarget "南機場美食介紹UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2250B7029C5F3A9004D5572 /* Debug */,
+				A2250B7129C5F3A9004D5572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A2250B4829C5F3A8004D5572 /* _______.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A2250B4929C5F3A8004D5572 /* _______.xcdatamodel */,
+			);
+			currentVersion = A2250B4929C5F3A8004D5572 /* _______.xcdatamodel */;
+			path = "_______.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A2250B3429C5F3A8004D5572 /* Project object */;
+}
